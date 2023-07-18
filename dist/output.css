@@ -614,6 +614,10 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.mb-32 {
+  margin-bottom: 8rem;
+}
+
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -624,6 +628,10 @@ video {
 
 .mt-10 {
   margin-top: 2.5rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
 }
 
 .block {
@@ -654,8 +662,8 @@ video {
   max-width: 48rem;
 }
 
-.max-w-\[200px\] {
-  max-width: 200px;
+.max-w-\[220px\] {
+  max-width: 220px;
 }
 
 .max-w-\[23px\] {
@@ -676,14 +684,6 @@ video {
 
 .max-w-xl {
   max-width: 36rem;
-}
-
-.max-w-\[240px\] {
-  max-width: 240px;
-}
-
-.max-w-\[220px\] {
-  max-width: 220px;
 }
 
 .transform {
@@ -853,8 +853,8 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.pb-\[120px\] {
-  padding-bottom: 120px;
+.pb-24 {
+  padding-bottom: 6rem;
 }
 
 .pr-1 {
@@ -867,18 +867,6 @@ video {
 
 .pt-24 {
   padding-top: 6rem;
-}
-
-.pb-28 {
-  padding-bottom: 7rem;
-}
-
-.pb-24 {
-  padding-bottom: 6rem;
-}
-
-.pb-8 {
-  padding-bottom: 2rem;
 }
 
 .text-center {
@@ -965,7 +953,7 @@ video {
 }
 
 body {
-  font-family: "To Japan", Helvetica, sans-serif;
+  font-family: "Poppins", Helvetica, sans-serif;
 }
 
 .navbar-fixed {
@@ -1078,6 +1066,10 @@ body {
     top: 2.5rem;
   }
 
+  .md\:mb-0 {
+    margin-bottom: 0px;
+  }
+
   .md\:w-1\/5 {
     width: 20%;
   }
@@ -1112,22 +1104,23 @@ body {
     padding-bottom: 4rem;
   }
 
-  .md\:pb-10 {
-    padding-bottom: 2.5rem;
-  }
-
   .md\:pb-8 {
     padding-bottom: 2rem;
-  }
-
-  .md\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 
   .md\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .md\:text-lg {
@@ -1143,11 +1136,6 @@ body {
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .md\:text-xs {
-    font-size: 0.75rem;
-    line-height: 1rem;
   }
 
   .md\:grayscale {

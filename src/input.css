@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  font-family: "To Japan", Helvetica, sans-serif;
+  font-family: "Poppins", Helvetica, sans-serif;
 }
 
 .navbar-fixed {
