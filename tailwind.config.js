@@ -1,6 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["index.html"],
+  content: [
+    "index.html",
+    "jp/index.html",
+    "spidermine/freya.html",
+    "spidermine/freyaJP.html",
+    "spidermine/error.html",
+  ],
   darkMode: "class",
   theme: {
     container: {
@@ -9,7 +15,7 @@ module.exports = {
     },
     extend: {
       animation: {
-        "spin-slow": "spin 2.8s linear infinite",
+        "spin-slow": "spin 360s",
         goyang: "goyang 1s ease-in-out infinite",
       },
       keyframes: {
